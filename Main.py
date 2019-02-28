@@ -46,3 +46,6 @@ change=change%0.25
 num0_10=change//0.10
 print("You get",num0_10,"$0.10s")
 change=change%0.10
+#how many 0.5s
+num0_5=change//0.5
+print("you get",num0_5,"$0.5s")
