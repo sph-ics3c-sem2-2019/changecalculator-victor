@@ -13,7 +13,6 @@ print("Your change is",change)
 num100=change//100
 print("You get",num100,"$100s")
 change=change%100
-print("You have",change,"left")
 #how many 50s\
 num50=change//50
 print("You get",num50,"$50s")
