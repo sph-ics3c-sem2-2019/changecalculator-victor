@@ -11,23 +11,27 @@ change=amount-cost
 print("Your change is",change)
 #how many 100s
 num100=change//100
-print("You get",num100,"$100s")
+if(num100>0):
+    print("You get",num100,"$100s")
 change=change%100
 #how many 50s\
 num50=change//50
-print("You get",num50,"$50s")
-change=change%50
+if(num50>0):
+    print("You get",num50,"$50s")
+change=change%5012
 #how many 20s
 num20=change//20
 print("You get",num20,"$20s")
 change=change%20
 #how many 10s
 num10=change//10
-print("You get",num10,"$10s")
+if(num10>0):
+   print("You get",num10,"$10s")
 change=change%10
 #how many 5s
 num5=change//5
-print("You get",num5,"$5s")
+if(num5>0):
+   print("You get",num5,"$5s")
 change=change%5
 #how many 2s
 num2=change//2
@@ -39,7 +43,8 @@ print("You get",num1,"$1s")
 change=change%1
 #how many 0.25s
 num0_25=change//0.25
-print("You get",num0_25,"$0.25s")
+if(num0_25>0):
+   print("You get",num0_25,"$0.25s")
 change=change%0.25
 #how many 0.10s
 num0_10=change//0.10
